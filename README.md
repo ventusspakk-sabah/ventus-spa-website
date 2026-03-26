@@ -204,6 +204,14 @@ Ventus Spa - 7 Page Full Service Luxury Hub
         menuBtn.onclick = () => { mobileMenu.classList.remove('hidden-menu'); document.body.style.overflow = 'hidden'; }
         closeBtn.onclick = () => { mobileMenu.classList.add('hidden-menu'); document.body.style.overflow = 'auto'; }
         items.forEach(i => i.onclick = () => { mobileMenu.classList.add('hidden-menu'); document.body.style.overflow = 'auto'; });
-    </script>
+    </script><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HTYF4NFYN4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HTYF4NFYN4');
+</script>
 </body>
 </html>
